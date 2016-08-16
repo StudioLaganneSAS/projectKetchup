@@ -1,0 +1,489 @@
+#                            
+# Translation template file. 
+#                            
+
+msgid "English (US)"
+msgstr ""
+
+msgid "French (France)"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Major"
+msgstr ""
+
+msgid "m"
+msgstr ""
+
+msgid "Minor"
+msgstr ""
+
+msgid "sus4"
+msgstr ""
+
+msgid "Sus4"
+msgstr ""
+
+msgid "sus2"
+msgstr ""
+
+msgid "Sus2"
+msgstr ""
+
+msgid "7"
+msgstr ""
+
+msgid "7th"
+msgstr ""
+
+msgid "7M"
+msgstr ""
+
+msgid "Major7th"
+msgstr ""
+
+msgid "m7"
+msgstr ""
+
+msgid "Minor 7th"
+msgstr ""
+
+msgid "m7M"
+msgstr ""
+
+msgid "Minor Major7th"
+msgstr ""
+
+msgid "6"
+msgstr ""
+
+msgid "6th"
+msgstr ""
+
+msgid "m6"
+msgstr ""
+
+msgid "Minor 6th"
+msgstr ""
+
+msgid "aug"
+msgstr ""
+
+msgid "Augmented"
+msgstr ""
+
+msgid "dim"
+msgstr ""
+
+msgid "Diminished"
+msgstr ""
+
+msgid "dim7"
+msgstr ""
+
+msgid "Dim7th"
+msgstr ""
+
+msgid "add9"
+msgstr ""
+
+msgid "Added 9th"
+msgstr ""
+
+msgid "madd9"
+msgstr ""
+
+msgid "Minor Add9th"
+msgstr ""
+
+msgid "9"
+msgstr ""
+
+msgid "9th"
+msgstr ""
+
+msgid "9M"
+msgstr ""
+
+msgid "Major9th"
+msgstr ""
+
+msgid "m9"
+msgstr ""
+
+msgid "Minor 9th"
+msgstr ""
+
+msgid "m9M"
+msgstr ""
+
+msgid "Minor Major9th"
+msgstr ""
+
+msgid "11"
+msgstr ""
+
+msgid "11th"
+msgstr ""
+
+msgid "m11"
+msgstr ""
+
+msgid "Minor 11th"
+msgstr ""
+
+msgid "6/9"
+msgstr ""
+
+msgid "Sixth/Ninth"
+msgstr ""
+
+msgid "m6/9"
+msgstr ""
+
+msgid "Minor 6/9"
+msgstr ""
+
+msgid "13"
+msgstr ""
+
+msgid "13th"
+msgstr ""
+
+msgid "m13"
+msgstr ""
+
+msgid "Minor 13th"
+msgstr ""
+
+msgid "7sus2"
+msgstr ""
+
+msgid "Seventh Sus2"
+msgstr ""
+
+msgid "7sus4"
+msgstr ""
+
+msgid "Seventh Sus4"
+msgstr ""
+
+msgid "Not a chord!"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Fundamental"
+msgstr ""
+
+msgid "Minor Second"
+msgstr ""
+
+msgid "Major Second"
+msgstr ""
+
+msgid "Minor Third"
+msgstr ""
+
+msgid "Major Third"
+msgstr ""
+
+msgid "Fourth"
+msgstr ""
+
+msgid "Diminished Fifth"
+msgstr ""
+
+msgid "Fifth"
+msgstr ""
+
+msgid "Augmented Fifth"
+msgstr ""
+
+msgid "Sixth"
+msgstr ""
+
+msgid "Minor Seventh"
+msgstr ""
+
+msgid "Major Seventh"
+msgstr ""
+
+msgid "Octave"
+msgstr ""
+
+msgid "Diminished Ninth"
+msgstr ""
+
+msgid "Ninth"
+msgstr ""
+
+msgid "Augmented Ninth"
+msgstr ""
+
+msgid "Tenth"
+msgstr ""
+
+msgid "Eleventh"
+msgstr ""
+
+msgid "Diminished Twelvth"
+msgstr ""
+
+msgid "Twelvth"
+msgstr ""
+
+msgid "Augmented Twelvth"
+msgstr ""
+
+msgid "Thirteenth"
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+msgid "2nd min"
+msgstr ""
+
+msgid "2nd"
+msgstr ""
+
+msgid "3rd min"
+msgstr ""
+
+msgid "3rd"
+msgstr ""
+
+msgid "4th"
+msgstr ""
+
+msgid "5th dim"
+msgstr ""
+
+msgid "5th"
+msgstr ""
+
+msgid "5th aug"
+msgstr ""
+
+msgid "7th min"
+msgstr ""
+
+msgid "7th maj"
+msgstr ""
+
+msgid "9th dim"
+msgstr ""
+
+msgid "9th aug"
+msgstr ""
+
+msgid "10th"
+msgstr ""
+
+msgid "12th dim"
+msgstr ""
+
+msgid "12th"
+msgstr ""
+
+msgid "12th aug"
+msgstr ""
+
+msgid "??"
+msgstr ""
+
+msgid "Do"
+msgstr ""
+
+msgid "Do#"
+msgstr ""
+
+msgid "Reb"
+msgstr ""
+
+msgid "Re"
+msgstr ""
+
+msgid "Re#"
+msgstr ""
+
+msgid "Mib"
+msgstr ""
+
+msgid "Mi"
+msgstr ""
+
+msgid "Fa"
+msgstr ""
+
+msgid "Fa#"
+msgstr ""
+
+msgid "Solb"
+msgstr ""
+
+msgid "Sol"
+msgstr ""
+
+msgid "Sol#"
+msgstr ""
+
+msgid "Lab"
+msgstr ""
+
+msgid "La"
+msgstr ""
+
+msgid "La#"
+msgstr ""
+
+msgid "Sib"
+msgstr ""
+
+msgid "Si"
+msgstr ""
+
+msgid "C"
+msgstr ""
+
+msgid "C#"
+msgstr ""
+
+msgid "Cb"
+msgstr ""
+
+msgid "D"
+msgstr ""
+
+msgid "D#"
+msgstr ""
+
+msgid "Eb"
+msgstr ""
+
+msgid "E"
+msgstr ""
+
+msgid "F"
+msgstr ""
+
+msgid "F#"
+msgstr ""
+
+msgid "Gb"
+msgstr ""
+
+msgid "G"
+msgstr ""
+
+msgid "G#"
+msgstr ""
+
+msgid "Ab"
+msgstr ""
+
+msgid "A"
+msgstr ""
+
+msgid "A#"
+msgstr ""
+
+msgid "Bb"
+msgstr ""
+
+msgid "B"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Half-Step Down"
+msgstr ""
+
+msgid "Whole-Step Down"
+msgstr ""
+
+msgid "Drop D"
+msgstr ""
+
+msgid "Open G"
+msgstr ""
+
+msgid "Dadgad"
+msgstr ""
+
+msgid " Chord Library"
+msgstr ""
+
+msgid "Quick Search"
+msgstr ""
+
+msgid "Root Note:"
+msgstr ""
+
+msgid "Alterations:"
+msgstr ""
+
+msgid "Bass:"
+msgstr ""
+
+msgid "Look for more variations using open strings"
+msgstr ""
+
+msgid "Chord Type:"
+msgstr ""
+
+msgid "Tuning:"
+msgstr ""
+
+msgid "Choose this Chord"
+msgstr ""
+
+msgid "Undo \"%1\""
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Redo \"%1\""
+msgstr ""
+
+msgid "Redo"
+msgstr ""
+
+msgid "Cut"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Paste"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "No recent files yet..."
+msgstr ""
+
+msgid "Clear this Menu"
+msgstr ""

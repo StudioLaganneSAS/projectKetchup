@@ -1,0 +1,11 @@
+src\core
+src\dialogs
+src\filterGraph
+src\filters
+src\music
+src\musicUI
+src\tools
+src\ui
+src\vector
+
+  

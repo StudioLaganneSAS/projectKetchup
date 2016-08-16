@@ -1,0 +1,73 @@
+
+-----------------------------
+Desktop Application CheckList
+-----------------------------
+
+
+This file lists all the areas of modern desktop application developmen
+that comonly need to be adressed and how they are adressed in PK:
+
+
+The checklist is divided in several parts:
+
+
+Platfom-agnositc areas:
+-----------------------
+
+- Cut/Copy/Paste
+
+This features is handled internally by all PK controls and PKDialog.
+Provided a menu is created with the ID "MENU_ID_EDIT" and contains
+menu items named (ID property) "MENU_ID_CUT", "MENU_ID_COPY" and
+"MENU_ID_PASTE", these items will be managed by PKApp itself.
+
+Please note that both the menu item and the submenu for "Edit" need
+to have the ID "MENU_ID_EDIT".
+
+- Undo/Redo
+
+Undo/Redo is also handled by the MENU_ID_EDIT menu as long as items
+with IDs "MENU_ID_UNDO" and "MENU_ID_REDO" are present. The only 
+requirement is that actions that must be undoable are implemented by
+deriving from PKUndoableCommand and pushed to the undo/redo stack using
+the appropriate method from PKUndoManager. Design your app in accordance
+with using this base Command class to compartmentalize when desired.
+
+- Recent Files
+
+A recent files menu can also be handled automatically as part of the File
+menu as long as it contains a submenu with id "MENU_ID_RECENT_FILES".
+Files can be added to the menu using the PKSettings class.
+
+- i18n
+
+All the UI elements & strings must be translated (see PK_i18n()).
+The template list of strings can be generated from a project file
+listing all the directories to scan with pki18nlst. An existing .po
+file can be updated to include new entries with POEdit from the new
+listing.
+
+WIN32 specific items:
+---------------------
+
+- Common controls (XP style) manifest
+
+A manifest entry must be added to the linker section settings to enable
+the new visual styles (for Windows XP)
+
+- DPI aware manifest
+
+A manifest section must also be added to the final manifest file to 
+declare DPI awareness to avoid stretching of coordinates in high DPI
+mode. See the file dpiAware.manifest in the build/win32 section.
+
+- Icons
+
+Need an icon for the app. First icon resource = app icons.
+Needs all sizes up to 256x256 for windows 7.
+
+- i18n
+
+Compiled .mo files (created with POEdit) need to be inserted as resources
+in the final executable with the locale name (ex: "fr_FR").
+
