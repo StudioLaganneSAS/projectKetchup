@@ -11,9 +11,6 @@ project (projectKetchup)
 # Enable our custom CMake modules
 LIST(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 
-# Enable NASM
-enable_language(ASM-NASM)
-
 # Setup platform specific defines
 
 if(WIN32)
