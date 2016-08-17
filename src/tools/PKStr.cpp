@@ -243,6 +243,16 @@ std::wstring PKStr::escapeSingleQuotes(std::wstring input)
 	return PKStr::replaceString(L"'", L"\\'", input);
 }
 
+std::string PKStr::escapeDoubleQuotes(std::string input)
+{
+	return PKStr::replaceString("\"", "\\\"", input);
+}
+
+std::wstring PKStr::escapeDoubleQuotes(std::wstring input)
+{
+	return PKStr::replaceString(L"\"", L"\\\"", input);
+}
+
 void PKStr::explode(std::wstring str,
                           wchar_t delimiter,
                           std::vector <std::wstring> *result)

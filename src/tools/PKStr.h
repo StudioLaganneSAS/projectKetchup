@@ -76,7 +76,10 @@ public:
 	static std::string escapeSingleQuotes(std::string input);
 	static std::wstring escapeSingleQuotes(std::wstring input);
 
-    // Matching
+	static std::string escapeDoubleQuotes(std::string input);
+	static std::wstring escapeDoubleQuotes(std::wstring input);
+
+	// Matching
 
     static bool isOnlyWhiteSpaceAndTabs(std::string  input);
     static bool isOnlyWhiteSpaceAndTabs(std::wstring input);
