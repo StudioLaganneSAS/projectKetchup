@@ -235,12 +235,12 @@ std::string PKStr::replaceString(std::string find,
 
 std::string PKStr::escapeSingleQuotes(std::string input)
 {
-	return PKStr::replaceString(input, "'", "\\'");
+	return PKStr::replaceString("'", "\\'", input);
 }
 
 std::wstring PKStr::escapeSingleQuotes(std::wstring input)
 {
-	return PKStr::replaceString(input, L"'", L"\\'");
+	return PKStr::replaceString(L"'", L"\\'", input);
 }
 
 void PKStr::explode(std::wstring str,
