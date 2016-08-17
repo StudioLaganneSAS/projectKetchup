@@ -71,6 +71,11 @@ public:
     static std::string replaceString(std::string find,
                                      std::string replace,
                                      std::string str);
+
+
+	static std::string escapeSingleQuotes(std::string input);
+	static std::wstring escapeSingleQuotes(std::wstring input);
+
     // Matching
 
     static bool isOnlyWhiteSpaceAndTabs(std::string  input);

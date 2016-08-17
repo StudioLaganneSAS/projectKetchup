@@ -625,7 +625,7 @@ PKDBErr PKDatabase::insertObjectIntoTable(std::string tableName,
 				else
 				{
 					SQL += "'";
-					SQL += value->toString();
+					SQL += PKStr::escapeSingleQuotes(value->toString());
 					SQL += "'";
 				}
 
