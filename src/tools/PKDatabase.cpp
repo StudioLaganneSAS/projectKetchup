@@ -624,9 +624,9 @@ PKDBErr PKDatabase::insertObjectIntoTable(std::string tableName,
 				}
 				else
 				{
-					SQL += "\"";
-					SQL += PKStr::escapeDoubleQuotes(value->toString());
-					SQL += "\"";
+					SQL += "'";
+					SQL += PKStr::replaceString("'", "''", value->toString()); // Escape quotes the SQL way (doubling them)
+					SQL += "'";
 				}
 
                 if(i != (properties->getNumberOfProperties() -1))
